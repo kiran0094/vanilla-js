@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    animation-name: back;
+    animation-delay: 2000;
+    animation-duration: 8s;
+    background-color: aqua;
+    background-image: linear-gradient(to right, red , yellow);
+    animation-iteration-count: infinite;
+}
+@keyframes back {
+    0%{ background-image: linear-gradient(to right, red , yellow);}
+    25%{ background-image: linear-gradient(to right, #eecda3 , #ef629f);}
+    50%{ background-image: linear-gradient(to right, rgb(244, 3, 171),rgb(81, 219, 241)  );}
+    100%{ background-image: linear-gradient(to right, #06beb6 , #48b1bf);}
+    
+}
+#cards{ 
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.c{
+  margin-top: 2rem;
+  margin-left: 38rem;
+}
