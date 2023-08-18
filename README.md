@@ -1,5 +1,5 @@
 # vanilla-js
-it just a practice for dom manipulation link:
+it just a practice for dom manipulation link:https://kiran0094.github.io/vanilla-js/
 
 
  it is basically a website which tells importance of css and frameworks,
